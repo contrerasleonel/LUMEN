@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUMEN</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-dvh bg-[var(--bg)] text-[var(--text)] antialiased">
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-black/60 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-6 py-4 md:flex md:items-center md:justify-between">
+
+      <div class="flex items-center justify-between">
+        <a href="./index.html" class="text-lg font-semibold tracking-tight text-[var(--brand)]">LUMEN</a>
+      </div>
+      <nav
+        class="mt-3 flex flex-col gap-2 text-sm text-[var(--muted)] md:mt-0 md:flex-row md:items-center md:justify-end md:gap-6">
+        <a class="rounded px-2 py-1 text-[var(--brand)] md:px-0 md:py-0" href="./index.html">Inicio</a>
+        <a class="rounded px-2 py-1 hover:text-[var(--brand)]" href="./productos.html">Productos</a>
+        <a class="rounded px-2 py-1 hover:text-[var(--brand)]" href="./inspiracion.html">Inspiración</a>
+        <a class="rounded px-2 py-1 hover:text-[var(--brand)]" href="./contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  </m>
+  <main>
+    <section
+      style="--hero-img:url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop')"
+      class="relative isolate border-b border-white/10 bg-black">
+      <div class="absolute inset-0 -z-10 bg-[image:var(--hero-img)] bg-cover bg-center"></div>
+
+      <div class="absolute inset-0 -z-10 bg-black/55"></div>
+
+      <div
+        class="absolute inset-0 -z-10 bg-[radial-gradient(800px_420px_at_20%_18%,rgba(176,240,255,0.18),transparent_60%)]">
+      </div>
+
+      <div
+        class="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 -z-10 bg-gradient-to-b from-transparent to-black/60">
+      </div>
+      <div class="mx-auto max-w-7xl px-6 py-24 text-center sm:py-28">
+        <h1 class="text-4xl font-light tracking-tight sm:text-6xl">
+          <span class="block text-white/95">Ilumina tu</span>
+          <span class="block font-semibold text-[var(--brand)]">Mundo</span>
+        </h1>
+
+        <p class="mx-auto mt-5 max-w-2xl text-balance text-[var(--text)]">
+          Descubre nuestra colección de luminarias premium que transforman espacios ordinarios
+          en experiencias extraordinarias.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <a href="productos.html" class="inline-flex items-center gap-2 rounded-lg bg-[var(--brand)] px-5 py-3
+                font-medium text-black shadow-sm transition hover:brightness-95 focus:outline-none
+                focus:ring-2 focus:ring-[var(--brand)]/40">
+            Explorar Productos
+            <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+              <path fill="currentColor" d="M13.172 12 8.586 7.414 10 6l6 6-6 6-1.414-1.414L13.172 12z" />
+            </svg>
+          </a>
+
+          <a href="/inspiracion.html" class="inline-flex items-center gap-2 rounded-lg border border-white/12 bg-white/5 px-5 py-3
+                text-[var(--text)] transition hover:bg-white/10 focus:outline-none
+                focus:ring-2 focus:ring-white/20">
+            <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            Ver Inspiración
+          </a>
+    </section>
+
+    <section class="relative border-b py-20 border-white/10 bg-[#0B1016]">
+      <div class="mx-auto max-w-7xl px-6 py-16">
+
+        <div class="mb-6 flex item-center justify-center gap-2 text-[var(--brand)]">
+
+          <span class="inline-flex items-center justify-center text-[var(--brand)]">
+            <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 18h6"></path>
+              <path d="M10 22h4"></path>
+              <path d="M7 11a5 5 0 1 1 10 0c0 2-1 3-2 4s-1 2-1 3h-4c0-1 0-2-1-3s-2-2-2-4Z"></path>
+            </svg>
+          </span>
+
+          <span class="text-xs font-medium tracking-wide uppercase">Nuestra filosofia</span>
+        </div>
+        <p class="text-center text-xs text-[var(--text)]">Diseñamos luz para cada ambiente</p>
+        <p class="mx-auto mt-6 max-w-3xl text-center text-[var(--muted)]"> La luz no es solo iluminación. Es la
+          herramienta que define espacios, evoca
+          emociones y transforma la experiencia humana en cada ambiente.</p>
+      </div>
+      <div class="mx-auto max-w-5xl px-6 py-16">
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm ring-1 ring-black/10">
+            <span
+              class="inline-flex size-10 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <circle cx="12" cy="12" r="7"></circle>
+                <circle cx="12" cy="12" r="11"></circle>
+              </svg>
+            </span>
+            <h3 class="mt-4 text-lg font-semibold tracking-tight">Análisis del Espacio</h3>
+            <p class="mt-2 text-sm text-[var(--muted)]">
+              Estudiamos cada ambiente para entender sus necesidades lumínicas específicas.
+            </p>
+          </article>
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm ring-1 ring-black/10">
+            <span
+              class="inline-flex size-10 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+              <!-- ícono engranaje/persona (lineal) -->
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 15a4 4 0 1 0-4-4 4 4 0 0 0 4 4Z"></path>
+                <path d="M3 20a6 6 0 0 1 6-6h6a6 6 0 0 1 6 6"></path>
+              </svg>
+            </span>
+            <h3 class="mt-4 text-lg font-semibold tracking-tight">Diseño Personalizado</h3>
+            <p class="mt-2 text-sm text-[var(--muted)]">
+              Creamos soluciones únicas que combinan funcionalidad con estética contemporánea.
+            </p>
+          </article>
+
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm ring-1 ring-black/10">
+            <span
+              class="inline-flex size-10 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+              <!-- ícono foco (lineal) -->
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+                <path d="M7 11a5 5 0 1 1 10 0c0 2-1 3-2 4s-1 2-1 3h-4c0-1 0-2-1-3s-2-2-2-4Z"></path>
+              </svg>
+            </span>
+            <h3 class="mt-4 text-lg font-semibold tracking-tight">Experiencia Completa</h3>
+            <p class="mt-2 text-sm text-[var(--muted)]">
+              Implementamos sistemas que transforman la forma de vivir e interactuar con la luz.
+            </p>
+          </article>
+        </div>
+      </div>
+
+    </section>
+    <section class="border-t border-white/10 bg-[var(--surface)]">
+      <div class="mx-auto max-w-7xl px-6 py-30 text-center">
+        <h2 class="text-3xl font-light tracking-tight sm:text-4xl">
+          <span class="text-white/90">¿Listo para</span>
+          <span class="font-semibold text-[var(--brand)]">Iluminar</span>
+          <span class="text-white/90">tu espacio?</span>
+        </h2>
+
+        <p class="mx-auto mt-4 max-w-2xl text-[var(--muted)]">
+          Descubre nuestra colección completa de iluminación contemporánea y encuentra la pieza perfecta para cada
+          rincón de tu hogar.
+        </p>
+
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+          <a href="productos.html"
+            class="inline-flex items-center rounded-lg bg-[var(--brand)] px-5 py-3 text-sm font-medium text-black transition hover:brightness-95">
+            Ver Productos
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="size-5">
+              <path fill="currentColor" d="M13.172 12 8.586 7.414 10 6l6 6-6 6-1.414-1.414L13.172 12z" />
+            </svg>
+          </a>
+          <a href="contacto.html"
+            class="inline-flex items-center rounded-lg border border-white/15 bg-transparent px-5 py-3 text-sm text-[var(--text)] transition hover:bg-white/10">
+            Consulta Personalizada
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="border-t border-white/10 bg-[#121720]">
+    <div class="mx-auto max-w-7xl px-6 py-14">
+      <div class="grid gap-10 md:grid-cols-3">
+        <section aria-labelledby="footer-brand">
+          <h3 id="footer-brand" class="text-lg font-semibold tracking-tight text-[var(--brand)]">LUMEN</h3>
+          <p class="mt-3 max-w-sm text-sm text-[var(--muted)]">Iluminamos espacios con diseño vanguardista y tecnología
+            de primera línea.</p>
+          <div class="mt-4 flex items-center gap-3">
+            <a aria-label="Instagram" href="#"
+              class="rounded-md border border-white/10 bg-white/5 p-2 transition hover:bg-white/10">
+              <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2.5A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5M17.5 7A1 1 0 1 1 16.5 8 1 1 0 0 1 17.5 7" />
+              </svg>
+            </a>
+            <a aria-label="X" href="#"
+              class="rounded-md border border-white/10 bg-white/5 p-2 transition hover:bg-white/10">
+              <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+                <path fill="currentColor" d="M3 3h4.6l4.2 6.1L16.7 3H21l-7 9.2L21 21h-4.6l-5-7.2L7.3 21H3l7-9.2z" />
+              </svg>
+            </a>
+            <a aria-label="LinkedIn" href="#"
+              class="rounded-md border border-white/10 bg-white/5 p-2 transition hover:bg-white/10">
+              <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M6.94 6.5A1.94 1.94 0 1 1 5 4.56 1.94 1.94 0 0 1 6.94 6.5M5.25 8.75h3.38V21H5.25zm5.63 0h3.24v1.67h.05a3.55 3.55 0 0 1 3.2-1.76c3.42 0 4.05 2.25 4.05 5.16V21h-3.38v-4.59c0-1.09 0-2.49-1.52-2.49s-1.75 1.18-1.75 2.41V21h-3.38z" />
+              </svg>
+            </a>
+          </div>
+        </section>
+
+        <nav aria-labelledby="footer-nav">
+          <h3 id="footer-nav" class="text-sm font-semibold text-white/90">Navegación</h3>
+          <ul class="mt-3 space-y-2 text-sm text-[var(--muted)]">
+            <li><a class="transition hover:text-[var(--text)]" href="/index.html">Inicio</a></li>
+            <li><a class="transition hover:text-[var(--text)]" href="./productos.html">Productos</a></li>
+            <li><a class="transition hover:text-[var(--text)]" href="./inspiracion.html">Inspiración</a></li>
+            <li><a class="transition hover:text-[var(--text)]" href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <address aria-labelledby="footer-contacto" class="not-italic">
+          <h3 id="footer-contacto" class="text-sm font-semibold text-white/90">Contacto</h3>
+          <ul class="mt-3 space-y-2 text-sm text-[var(--muted)]">
+            <li class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="size-4" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 13.5A4.5 4.5 0 1 1 16.5 9 4.5 4.5 0 0 1 12 13.5M2 20a10 10 0 1 1 20 0z" />
+              </svg>
+              info@lumen.com.ar
+            </li>
+            <li class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="size-4" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.7 11.7 0 0 0 3.7.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h2.5a1 1 0 0 1 1 1 11.7 11.7 0 0 0 .6 3.7 1 1 0 0 1-.25 1z" />
+              </svg>
+              +54 11 5555-1234
+            </li>
+            <li class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="size-4" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7m0 9.5A2.5 2.5 0 1 0 9.5 9 2.5 2.5 0 0 0 12 11.5z" />
+              </svg>
+              Buenos Aires, Argentina
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="mt-10 border-t border-white/10 pt-6 text-xs text-[var(--muted)]">
+        © 2024 LUMEN. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUMEN</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-dvh bg-[var(--bg)] text-[var(--text)] antialiased">
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-black/60 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-6 py-4 md:flex md:items-center md:justify-between">
+      <div class="flex items-center justify-between">
+        <a href="./index.html" class="text-lg font-semibold tracking-tight text-[var(--brand)]">LUMEN</a>
+      </div>
+      <nav
+        class="mt-3 flex flex-col gap-2 text-sm text-[var(--muted)] md:mt-0 md:flex-row md:items-center md:justify-end md:gap-6">
+        <a class="rounded px-2 py-1 hover:text-[var(--brand)] md:px-0 md:py-0" href="./index.html">Inicio</a>
+        <a class="rounded px-2 py-1 hover:text-[var(--brand)]" href="./productos.html">Productos</a>
+        <a class="rounded px-2 py-1 hover:text-[var(--brand)]" href="./inspiracion.html">Inspiración</a>
+        <a class="rounded px-2 py-1 text-[var(--brand)]" href="./contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  </m>
+  <main class="bg-[var(--bg)] text-[var(--text)]">
+
+    <section class="border-b border-white/10 bg-[var(--surface)]">
+      <div class="mx-auto max-w-7xl px-6 py-16 text-center">
+        <h1 class="text-4xl font-light tracking-tight sm:text-5xl">
+          Hablemos de tu <span class="font-semibold text-[var(--brand)]">Proyecto</span>
+        </h1>
+        <p class="mx-auto mt-4 max-w-2xl text-[var(--muted)]">
+          Nuestro equipo de expertos está listo para ayudarte a crear la solución de iluminación perfecta.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-10">
+      <div class="mx-auto grid max-w-7xl gap-6 px-6 md:grid-cols-3">
+        <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm">
+          <span
+            class="inline-flex size-10 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+            <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.7 11.7 0 0 0 3.7.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h2.5a1 1 0 0 1 1 1 11.7 11.7 0 0 0 .6 3.7 1 1 0 0 1-.25 1z" />
+            </svg>
+          </span>
+          <h3 class="mt-4 font-semibold tracking-tight">Teléfono</h3>
+          <p class="mt-1 text-sm text-[var(--muted)]">Hablá con un especialista</p>
+          <a href="tel:+541155551234" class="mt-3 inline-block text-sm underline-offset-4 hover:underline">+54 11
+            5555-1234</a>
+          <p class="mt-1 text-xs text-[var(--muted)]">Lun a Vie · 9–19 h</p>
+        </article>
+
+        <!-- Email -->
+        <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm">
+          <span
+            class="inline-flex size-10 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+            <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="m22 6-10 7L2 6"></path>
+            </svg>
+          </span>
+          <h3 class="mt-4 font-semibold tracking-tight">Email</h3>
+          <p class="mt-1 text-sm text-[var(--muted)]">Respondemos dentro de 24 h</p>
+          <a href="mailto:info@lumen.com.ar"
+            class="mt-3 inline-block text-sm underline-offset-4 hover:underline">info@lumen.com.ar</a>
+          <p class="mt-1 text-xs text-[var(--muted)]">Siempre disponible</p>
+        </article>
+
+        <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm">
+          <span
+            class="inline-flex size-10 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+            <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
+            </svg>
+          </span>
+          <h3 class="mt-4 font-semibold tracking-tight">Chat en vivo</h3>
+          <p class="mt-1 text-sm text-[var(--muted)]">Consultas rápidas por WhatsApp</p>
+          <a href="https://wa.me/5491155551234" target="_blank"
+            class="mt-3 inline-block text-sm underline-offset-4 hover:underline">Chatear ahora</a>
+          <p class="mt-1 text-xs text-[var(--muted)]">Lun a Vie · 10–18 h</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="py-10">
+      <div class="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-2">
+        <form class="space-y-4 rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm" novalidate>
+          <h2 class="mb-2 text-lg font-semibold tracking-tight">
+            Envíanos un <span class="text-[var(--brand)]">Mensaje</span>
+          </h2>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class="block">
+              <span class="mb-1 block text-sm text-white/90">Nombre*</span>
+              <input name="name" type="text" required
+                class="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40"
+                placeholder="Tu nombre completo">
+            </label>
+            <label class="block">
+              <span class="mb-1 block text-sm text-white/90">Email*</span>
+              <input name="email" type="email" required
+                class="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40"
+                placeholder="tucorreo@ejemplo.com">
+            </label>
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class="block">
+              <span class="mb-1 block text-sm text-white/90">Teléfono</span>
+              <input name="phone" type="tel" inputmode="tel"
+                class="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40"
+                placeholder="+54 9 11 5555-1234">
+            </label>
+            <label class="block">
+              <span class="mb-1 block text-sm text-white/90">Tipo de Proyecto</span>
+              <select name="type"
+                class="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-[var(--text)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40">
+                <option class="bg-[var(--surface)]">Residencial</option>
+                <option class="bg-[var(--surface)]">Comercial</option>
+                <option class="bg-[var(--surface)]">Oficinas</option>
+                <option class="bg-[var(--surface)]">Exterior</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="block">
+            <span class="mb-1 block text-sm text-white/90">Mensaje*</span>
+            <textarea name="message" rows="5" required
+              class="w-full resize-y rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40"
+              placeholder="Contanos sobre tu proyecto, medidas, ambientes, estilo, etc."></textarea>
+          </label>
+
+          <label class="mt-1 flex items-center gap-2 text-xs text-[var(--muted)]">
+            <input type="checkbox"
+              class="size-4 rounded border-white/20 bg-white/5 text-[var(--brand)] focus:ring-[var(--brand)]/40">
+            Quiero recibir novedades y ofertas de LUMEN
+          </label>
+
+          <button type="submit"
+            class="mt-2 inline-flex items-center rounded-lg bg-[var(--brand)] px-5 py-3 font-medium text-black transition hover:brightness-95">
+            Enviar mensaje
+          </button>
+        </form>
+
+        <div class="space-y-6">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm">
+            <div class="flex items-center gap-2 text-[var(--brand)]">
+              <span class="inline-flex size-6 items-center justify-center rounded-full bg-[var(--brand)]/10">
+                <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18h6"></path>
+                  <path d="M10 22h4"></path>
+                  <path d="M7 11a5 5 0 1 1 10 0c0 2-1 3-2 4s-1 2-1 3h-4c0-1 0-2-1-3s-2-2-2-4Z"></path>
+                </svg>
+              </span>
+              <h2 class="text-sm font-semibold text-white/90">Oficina Principal</h2>
+            </div>
+            <p class="mt-3 text-lg font-semibold tracking-tight">Buenos Aires</p>
+            <p class="text-sm text-[var(--muted)]">
+              Av. Santa Fe 1234, Palermo<br>
+              CABA, CP 1425<br>
+              Argentina
+            </p>
+
+            <div class="mt-5 flex items-start gap-3">
+              <span class="inline-flex size-8 items-center justify-center rounded-md bg-white/5">
+                <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 6h18M8 6v12m8-12v12M5 18h14" />
+                </svg>
+              </span>
+              <div>
+                <h3 class="text-sm font-semibold text-white/90">Horarios</h3>
+                <p class="mt-1 text-sm text-[var(--muted)]">
+                  Lun–Vie: 09:00–18:00 • Sáb: 10:00–14:00<br>Domingos cerrado
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-5 rounded-xl border border-white/10 bg-white/5 p-4">
+              <h3 class="text-sm font-semibold text-white/90">¿Por qué elegir LUMEN?</h3>
+              <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-[var(--muted)]">
+                <li>Asesoría gratuita con diseñadores expertos</li>
+                <li>Garantía extendida de 5 años</li>
+                <li>Instalación profesional incluida</li>
+                <li>Soporte técnico 24/7</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-t border-white/10 bg-[var(--surface)]">
+      <div class="mx-auto max-w-7xl px-6 py-14">
+        <div class="text-center">
+          <h2 class="text-2xl font-light tracking-tight">Visita Nuestros <span
+              class="font-semibold text-[var(--brand)]">Showrooms</span></h2>
+          <p class="mx-auto mt-2 max-w-2xl text-[var(--muted)]">Experimentá nuestros productos en persona.</p>
+        </div>
+
+        <div class="mt-8 grid gap-6 md:grid-cols-2">
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm">
+            <div class="flex items-center justify-between">
+              <h3 class="text-lg font-semibold tracking-tight">CABA</h3>
+              <span class="rounded-full bg-white/5 px-3 py-1 text-xs text-[var(--muted)]">Palermo</span>
+            </div>
+            <p class="mt-2 text-sm text-[var(--muted)]">
+              Av. Córdoba 5555, Palermo<br>
+              CABA, CP 1414
+            </p>
+            <div class="mt-3 space-y-1 text-sm">
+              <a href="tel:+541145551266" class="block underline-offset-4 hover:underline">+54 11 4555-1266</a>
+              <a href="mailto:palermo@lumen.com.ar"
+                class="block underline-offset-4 hover:underline">palermo@lumen.com.ar</a>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm">
+            <div class="flex items-center justify-between">
+              <h3 class="text-lg font-semibold tracking-tight">Córdoba</h3>
+              <span class="rounded-full bg-white/5 px-3 py-1 text-xs text-[var(--muted)]">Nueva Córdoba</span>
+            </div>
+            <p class="mt-2 text-sm text-[var(--muted)]">
+              Bv. Hipólito Yrigoyen 350, Nueva Córdoba<br>
+              Córdoba, CP 5000
+            </p>
+            <div class="mt-3 space-y-1 text-sm">
+              <a href="tel:+543514225678" class="block underline-offset-4 hover:underline">+54 351 422-5678</a>
+              <a href="mailto:cordoba@lumen.com.ar"
+                class="block underline-offset-4 hover:underline">cordoba@lumen.com.ar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-white/10 bg-[#121720]">
+    <div class="mx-auto max-w-7xl px-6 py-14">
+      <div class="grid gap-10 md:grid-cols-3">
+        <section aria-labelledby="footer-brand">
+          <h3 id="footer-brand" class="text-lg font-semibold tracking-tight text-[var(--brand)]">LUMEN</h3>
+          <p class="mt-3 max-w-sm text-sm text-[var(--muted)]">Iluminamos espacios con diseño vanguardista y tecnología
+            de primera línea.</p>
+          <div class="mt-4 flex items-center gap-3">
+            <a aria-label="Instagram" href="#"
+              class="rounded-md border border-white/10 bg-white/5 p-2 transition hover:bg-white/10">
+              <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2.5A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5M17.5 7A1 1 0 1 1 16.5 8 1 1 0 0 1 17.5 7" />
+              </svg>
+            </a>
+            <a aria-label="X" href="#"
+              class="rounded-md border border-white/10 bg-white/5 p-2 transition hover:bg-white/10">
+              <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+                <path fill="currentColor" d="M3 3h4.6l4.2 6.1L16.7 3H21l-7 9.2L21 21h-4.6l-5-7.2L7.3 21H3l7-9.2z" />
+              </svg>
+            </a>
+            <a aria-label="LinkedIn" href="#"
+              class="rounded-md border border-white/10 bg-white/5 p-2 transition hover:bg-white/10">
+              <svg viewBox="0 0 24 24" class="size-5" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M6.94 6.5A1.94 1.94 0 1 1 5 4.56 1.94 1.94 0 0 1 6.94 6.5M5.25 8.75h3.38V21H5.25zm5.63 0h3.24v1.67h.05a3.55 3.55 0 0 1 3.2-1.76c3.42 0 4.05 2.25 4.05 5.16V21h-3.38v-4.59c0-1.09 0-2.49-1.52-2.49s-1.75 1.18-1.75 2.41V21h-3.38z" />
+              </svg>
+            </a>
+          </div>
+        </section>
+
+        <nav aria-labelledby="footer-nav">
+          <h3 id="footer-nav" class="text-sm font-semibold text-white/90">Navegación</h3>
+          <ul class="mt-3 space-y-2 text-sm text-[var(--muted)]">
+            <li><a class="transition hover:text-[var(--text)]" href="/index.html">Inicio</a></li>
+            <li><a class="transition hover:text-[var(--text)]" href="./productos.html">Productos</a></li>
+            <li><a class="transition hover:text-[var(--text)]" href="./inspiracion.html">Inspiración</a></li>
+            <li><a class="transition hover:text-[var(--text)]" href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <address aria-labelledby="footer-contacto" class="not-italic">
+          <h3 id="footer-contacto" class="text-sm font-semibold text-white/90">Contacto</h3>
+          <ul class="mt-3 space-y-2 text-sm text-[var(--muted)]">
+            <li class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="size-4" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 13.5A4.5 4.5 0 1 1 16.5 9 4.5 4.5 0 0 1 12 13.5M2 20a10 10 0 1 1 20 0z" />
+              </svg>
+              info@lumen.com.ar
+            </li>
+            <li class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="size-4" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.7 11.7 0 0 0 3.7.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h2.5a1 1 0 0 1 1 1 11.7 11.7 0 0 0 .6 3.7 1 1 0 0 1-.25 1z" />
+              </svg>
+              +54 11 5555-1234
+            </li>
+            <li class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="size-4" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7m0 9.5A2.5 2.5 0 1 0 9.5 9 2.5 2.5 0 0 0 12 11.5z" />
+              </svg>
+              Buenos Aires, Argentina
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="mt-10 border-t border-white/10 pt-6 text-xs text-[var(--muted)]">
+        © 2025 LUMEN. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
