@@ -7,3 +7,9 @@
       --brand:#F5D547;   /* amarillo LUMEN */
 }
 
+.bg-surface{ background-color: var(--surface) !important; }
+.text-cyan{ color: #22d3ee !important; }      
+.border-cyan\/50{ border-color: #22d3ee80 !important; }
+.bg-cyan\/10{ background-color: #22d3ee1a !important; }
+.bg-cyan\/20{ background-color: #22d3ee33 !important; }
+.border-cyan\/30{ border-color: #22d3ee4d !important; }
