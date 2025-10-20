@@ -1,11 +1,28 @@
-
 :root{
-      --bg:#0E121A;      /* fondo general */
-      --surface:#171E28; /* superficies */
-      --text:#E6EEF8;    /* texto principal */
-      --muted:#9FB0C6;   /* texto secundario */
-      --brand:#F5D547;   /* amarillo LUMEN */
+  /* Paleta base (del deck) */
+  --bg:#0D0D0D;
+  --surface:#1C1C1C;
+  --text:#E6EEF8;
+  --muted:#9BA7B4;
+  --brand:#F5D547; /* dorado */
+  --cyan:#22D3EE;
+
+  /* Radios, sombras, transición */
+  --r: 0.75rem;
+  --shadow: 0 8px 30px rgba(0,0,0,.35);
+  --t: 160ms;
 }
+
+/* === UTILIDADES QUE FALTAN EN TU HTML === */
+.bg-surface{ background-color: var(--surface) !important; }
+.text-brand{ color: var(--brand) !important; }
+.text-cyan-soft{ color: color-mix(in oklab, var(--cyan) 80%, white 20%); }
+.border-brand-30{ border-color: color-mix(in oklab, var(--brand) 30%, transparent) !important; }
+.border-cyan-40{ border-color: color-mix(in oklab, var(--cyan) 40%, transparent) !important; }
+
+.card{ background: rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); border-radius: var(--r); box-shadow: var(--shadow); }
+.card-hover{ transition: transform var(--t), border-color var(--t), box-shadow var(--t); }
+.card-hover:hover{ transform: translateY(-2px); border-color: color-mix(in oklab, var(--cyan) 28%, transparent); }
 
 .bg-surface{ background-color: var(--surface) !important; }
 .text-cyan{ color: #22d3ee !important; }      

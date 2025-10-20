@@ -18,11 +18,11 @@ $(document).on("click", ".product-card .btn-agregar", function () {
   // Cambio controles a +/-:
   $card.find(".controls").html(`
     <div class="flex items-center gap-2">
-      <button class="btn-menos w-12 h-12 bg-white/5 hover:bg-white/10 rounded-lg flex items-center justify-center">
+      <button class="btn-menos w-12 h-9 bg-white/5 hover:bg-white/10 rounded-lg flex items-center justify-center">
         <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor"><rect x="5" y="11" width="14" height="2"/></svg>
       </button>
-      <div class="qty-display flex-1 h-12 bg-cyan/10 border border-cyan/30 rounded-lg flex items-center justify-center text-xl text-cyan">${$card.attr("data-qty")}</div>
-      <button class="btn-mas w-12 h-12 bg-cyan/20 hover:bg-cyan/30 text-cyan rounded-lg border border-cyan/30 flex items-center justify-center">
+      <div class="qty-display flex-1 h-9 bg-cyan/10 border border-cyan/30 rounded-lg flex items-center justify-center text-xl text-cyan">${$card.attr("data-qty")}</div>
+      <button class="btn-mas w-12 h-9 bg-cyan/20 hover:bg-cyan/30 text-cyan rounded-lg border border-cyan/30 flex items-center justify-center">
         <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z"/></svg>
       </button>
     </div>
